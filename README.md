@@ -7,21 +7,30 @@ Here are some ideas to get you started:
 
 --> I have no idea how to code I just want to make 
 Element	Markdown Syntax
-Heading	# H1
+Heading	
+# H1
+Link [Heading 2](#H2)
 ## H2
 ### H3
 Bold	**bold text**
+
 Italic	*italicized text*
+
 Blockquote	> blockquote
-Ordered List	1. First item
+
+Ordered List	
+1. First item
 2. Second item
 3. Third item
+
 Unordered List	- First item
 - Second item
 - Third item
 Code	`code`
 Horizontal Rule	---
 Link	[title](https://www.example.com)
+Link	[title](/link)
+Link	[title](abc/poop)
 Image	![alt text](image.jpg)
 Extended Syntax
 These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
