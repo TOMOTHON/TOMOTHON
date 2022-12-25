@@ -3,9 +3,29 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="=with=device-width, initial-scale=1.0">
-        <title>TOMOTHON</title>
+    <title>TOMOTHON</title>
 </head>
 <body>
+    <div id="header">TOMOTHON</div>
 
+
+
+    </div>
+
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            document.getElementById("header").style.fontSize = "30px";
+            document.getElementById("header").style.padding = "20px 10px";
+          } else {
+            document.getElementById("header").style.fontSize = "13vmin";
+            document.getElementById("header").style.padding = "120px 10px";
+          }
+        }
+        </script>
+        
 </body>
 </html>
