@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="=with=device-width, initial-scale=1.0">
     <title>TOMOTHON</title>
-</head>
-<body>
-    <div id="header">TOMOTHON</div>
-
-
-
+  </head>
+  <body>
+    <div id="header">TOMOTHON
+      <nav>
+        <div class="nav-links">
+          <ul>
+            <li><a href="">TOMOTHON STUDIOS</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <script>
@@ -18,7 +23,7 @@
         
         function scrollFunction() {
           if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById("header").style.fontSize = "30px";
+            document.getElementById("header").style.fontSize = "3vmin";
             document.getElementById("header").style.padding = "20px 10px";
           } else {
             document.getElementById("header").style.fontSize = "13vmin";
@@ -26,6 +31,5 @@
           }
         }
         </script>
-        
-</body>
+  </body>
 </html>
