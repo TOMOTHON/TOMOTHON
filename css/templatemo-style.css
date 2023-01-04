@@ -136,6 +136,10 @@ hr {
 }
 /* END Backgrounds */
 
+.greycode {
+  background-color: #f8f8f8;
+}
+
 /* START WORK */
 .tm-padding-top-bottom-100 {
   padding-top: 100px;
@@ -163,6 +167,13 @@ hr {
   padding-bottom: 40px;
 }
 /* END WORK */
+
+.better-container{
+  width: 70%;
+}
+.resize-img{
+  max-height:40vh;
+}
 
 /* START PORTFOLIO */
 .tm-portfolio {
