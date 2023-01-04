@@ -81,7 +81,6 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -125,6 +124,17 @@ hr {
   color: #eb5424;
 }
 /* END HOME */
+
+/* START Backgrounds */
+.templatemo-lhmm-bg {
+  background: url('../images/LHMM.png');
+  background-size: cover;
+
+}
+.templatemo-home-bg {
+  background: url('../images/home-bg.jpg');
+}
+/* END Backgrounds */
 
 /* START WORK */
 .tm-padding-top-bottom-100 {
