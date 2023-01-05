@@ -134,6 +134,12 @@ hr {
 .templatemo-home-bg {
   background: url('../images/home-bg.jpg');
 }
+
+.extra-bg {
+  background: url('../images/dddance.jpg');
+  background-size: cover;
+}
+
 /* END Backgrounds */
 
 .greycode {
