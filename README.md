@@ -5,7 +5,8 @@
 
 Here are some ideas to get you started:
 
---> I have no idea how to code I just want to make 
+--> I have no idea how to code I just want to make a website, ignore the markdown cheatsheet below it's for my own reference and I'm too lazy to make another md file
+If ur here to look for my website go to TOMOTHON.com
 Element	Markdown Syntax
 Heading	
 # H1
