@@ -130,6 +130,17 @@ https://templatemo.com/tm-464-ultra-profile
 }
 /* END HOME */
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollgone::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollgone {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 /* START Backgrounds */
 .lhmm-bg {
   background: url('../images/LHMM.png');
