@@ -30,6 +30,17 @@ https://templatemo.com/tm-464-ultra-profile
     padding-bottom: 40px;
     text-transform: uppercase;
   }
+  .come-in {
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    animation-duration: 0.6s; /* So they look staggered */
+  }
+  
+  @keyframes come-in {
+    to { transform: translateY(0); }
+  }
 /* NO TOUCH */
 
 /* START NAVIGATION THIS STUFF WORKS NO TOUCH */
@@ -130,6 +141,17 @@ https://templatemo.com/tm-464-ultra-profile
 }
 /* END HOME */
 
+
+/* MISCELLANEOUS */
+.better-container{
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  }
+  .resize-img{
+    max-height:40vh;
+  }
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .scrollgone::-webkit-scrollbar {
   display: none;
@@ -167,9 +189,9 @@ scrollbar-width: none;  /* Firefox */
 }
 
 /* START WORK */
-.tm-padding-top-bottom-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.tm-margin-top-bottom-100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .tm-work-h3 {
   color: #eb5424;
@@ -193,13 +215,6 @@ scrollbar-width: none;  /* Firefox */
   padding-bottom: 40px;
 }
 /* END WORK */
-
-.better-container{
-  width: 70%;
-}
-.resize-img{
-  max-height:40vh;
-}
 
 /* START PORTFOLIO */
 .tm-portfolio {
@@ -401,6 +416,7 @@ scrollbar-width: none;  /* Firefox */
 .facebook { background: #3b5998; }
 .twitter { background: #55acee; }
 .pinterest { background: #cc2127; }
+.youtube { background: #FF0000}
 .media {
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
