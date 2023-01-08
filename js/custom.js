@@ -110,6 +110,17 @@ $(window).scroll(function(event) {
 	
   });
 
+$(window).load(function(event) {
+
+$(".module").each(function(i, el) {
+	var el = $(el);
+	if (el.visible(true)) {
+	el.addClass("come-in"); 
+	} 
+});
+
+});
+
   var win = $(window);
 var allMods = $(".module");
 
