@@ -165,9 +165,18 @@ scrollbar-width: none;  /* Firefox */
 
 /* START Backgrounds */
 .lhmm-bg {
-  background: url('../images/LHMM.png');
+  background: url('../images/LHMM.jpg');
   background-size: cover;
   background-position: center center;
+}
+.chimkin-bg {
+  background: url('../images/chimkin.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.blue-bg {
+  background-color: rgb(199, 241, 255) ;
 }
 .home-bg {
   background: url('../images/hawtbw.png');
@@ -259,7 +268,7 @@ scrollbar-width: none;  /* Firefox */
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #eb5424;
+  background: #49d5ff;
   color: #ffffff;
   top: 0;
   right: 0;
@@ -416,7 +425,7 @@ scrollbar-width: none;  /* Firefox */
 .facebook { background: #3b5998; }
 .twitter { background: #55acee; }
 .pinterest { background: #cc2127; }
-.youtube { background: #FF0000}
+.youtube { background: #bb1111}
 .media {
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
