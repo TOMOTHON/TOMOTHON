@@ -111,6 +111,7 @@ https://templatemo.com/tm-464-ultra-profile
 
 .althome{
   color:white;
+  text-shadow: black 3px 3px 3px
 }
 .tm-home-title,
  .tm-home-subtitle {
@@ -165,7 +166,7 @@ scrollbar-width: none;  /* Firefox */
 
 /* START Backgrounds */
 .lhmm-bg {
-  background: url('../images/LHMM.jpg');
+  background: url('../images/LHMM.png');
   background-size: cover;
   background-position: center center;
 }
@@ -173,6 +174,11 @@ scrollbar-width: none;  /* Firefox */
   background: url('../images/chimkin.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
+}
+.lesson-bg {
+  background: url('../images/stecker.png');
+  background-size: cover;
   background-position: center center;
 }
 .blue-bg {
@@ -381,7 +387,7 @@ scrollbar-width: none;  /* Firefox */
 }
 .progress-bar-danger { background: #eb5424; }
 .tm-progress-label {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
   padding-top: 10px;
   text-transform: uppercase;
