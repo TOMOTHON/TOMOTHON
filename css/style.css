@@ -177,7 +177,8 @@ scrollbar-width: none;  /* Firefox */
   background-position: center center;
 }
 .lesson-bg {
-  background: url('../images/stecker.png');
+  height: 488;
+  background: url('https://lh3.googleusercontent.com/hr_crs_themes/AOy-ete7H_pGyUydRxBnd2qzcHWxqtiYmLlOSw0D7Lh1xH-MCQCTLh25MCQEbSoJ9aGJEatPGojTKDxc0D7kVCmEYouQOznD9SdqRyGTVrqxNSyi8lQObH4brUM=s1280');
   background-size: cover;
   background-position: center center;
 }
