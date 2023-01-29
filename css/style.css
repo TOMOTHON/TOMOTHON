@@ -111,13 +111,14 @@ https://templatemo.com/tm-464-ultra-profile
 
 .althome{
   color:white;
-  text-shadow: black 3px 3px 3px
+  text-shadow: black 3px 3px 3px;
+
 }
 .tm-home-title,
  .tm-home-subtitle {
   text-transform: uppercase;
  }
-.tm-home-title { font-size: 60px; }
+.tm-home-title { font-size: 60px;   -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;}
 .tm-home-subtitle {
   color: #f3a48c;
   font-weight: bold;
@@ -150,7 +151,7 @@ https://templatemo.com/tm-464-ultra-profile
   padding-right: 15%;
   }
   .resize-img{
-    max-height:40vh;
+
   }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -178,7 +179,7 @@ scrollbar-width: none;  /* Firefox */
 }
 .lesson-bg {
   height: 488;
-  background: url('https://lh3.googleusercontent.com/hr_crs_themes/AOy-ete7H_pGyUydRxBnd2qzcHWxqtiYmLlOSw0D7Lh1xH-MCQCTLh25MCQEbSoJ9aGJEatPGojTKDxc0D7kVCmEYouQOznD9SdqRyGTVrqxNSyi8lQObH4brUM=s1280');
+  background: url('../images/lhss.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -276,7 +277,7 @@ scrollbar-width: none;  /* Firefox */
       -ms-flex-pack: center;
           justify-content: center;
   background: #49d5ff;
-  color: #ffffff;
+  color: black ;
   top: 0;
   right: 0;
   left: 0;
@@ -370,7 +371,7 @@ scrollbar-width: none;  /* Firefox */
 .fluid-img {
   width: 100%;
   display: block;
-  height: auto;
+  height: 40vh;
 }
 /* END PORTFOLIO */
 
